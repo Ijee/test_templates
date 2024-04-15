@@ -45,13 +45,13 @@ body:
               - Microsoft Edge
               - Safari
               - Other
+      validations:
+          required: true
     - type: textarea
       id: screenshot
       attributes:
           label: 'Screenshots (optional)'
           description: Add screenshots to help explain your problem.
-          value: |
-              ![DESCRIPTION](LINK.png)
       validations:
           required: false
     - type: textarea
